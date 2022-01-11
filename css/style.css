@@ -51,15 +51,23 @@ img {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-between; */
 
 }
 
+.header-menu {
+    margin: 0px 0px 0px 641px;
+}
 
-.menu-item {
+.menu-list {
+    display: flex;
+
+}
+
+.menu-item:not(:last-child){
     display: inline;
-    margin-left: 100px;
-    color: #FFFFFF;
+    margin: 0px 100px 0px 0px;
 }
 
 .menu-item a {
