@@ -6,13 +6,14 @@
 Fonts including 
 */
 @font-face {
-    font-family: '';
-    src: url();
-}
+    font-family: "CoreSerifNW01-35Regular";
+        src: url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.eot");
+        src: url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.woff") format("woff"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.svg#CoreSerifNW01-35Regular") format("svg"); }
+
 
 body {
-    font-family: '', sans-serif;
-    font-weight: 400;
+    font-family: 'CoreSerifNW01-35Regular', sans-serif;
+    font-weight: 500;
 
 }
 
@@ -54,9 +55,6 @@ img {
 
 }
 
-.menu-list a {
-    text-decoration: none;
-}
 
 .menu-item {
     display: inline;
@@ -64,8 +62,13 @@ img {
     color: #FFFFFF;
 }
 
+.menu-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .container {
-    max-width: 1262px;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 0 10px;
 }
