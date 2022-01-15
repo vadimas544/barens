@@ -134,18 +134,18 @@ ul {
 
 /**************MAIN PAGE*********************/
 
-.mainpage {
+.main-page {
     position: relative;
     width: 1440px;
     height: auto;
     margin: 0 auto;
 }
 
-.mainimage {
+.main-image {
     overflow: hidden;
 }
 
-.mainimage img {
+.main-image img {
     width: 100%;
     height: auto;
 }
@@ -153,23 +153,69 @@ ul {
 .mainpage-content {
     position: absolute;
     top: 271px;
-    left: 121px;
+    left: 110px;
 }
 
-.hero-title {
+.mainpage-title {
     color: #193554;
     font-size: 58px;
 }
 
-.hero-subtitle {
+.mainpage-subtitle {
     color: #9EABBE;
     font-size: 30px;
 }
 
-.hero-descr {
+.mainpage-descr {
     color: #193554;
     font-size: 18px;
     margin: 20px 0px 0px 0px;
+}
+
+.main-interests {
+    
+}
+
+.interests-rect {
+    position: absolute;
+    bottom: 116px;
+    left: 100px;
+    width: 1240px;
+    height: 392px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.interests-img {
+    margin-left: 84px;
+    /* margin-bottom: 73px; */
+} 
+
+.interests-descr {
+    margin-top: -50px;
+    margin-left: 106px;
+}
+
+.interests-descr p {
+    color: #0F2B49;
+    font-size: 18px;
+}
+
+.reference-more {
+    display: flex;
+    align-items: center;
+}
+
+.reference-more a {
+    color: #0F66E8;
+    font-size: 18px;
+    text-decoration: none;
+}
+.reference-more img {
+    margin-top: 5px;
+    margin-left: 8px;
 }
 
 
