@@ -6,50 +6,216 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container {
-            width: 1240px;
-            margin: 0 auto;
-            height: 3000px;
-            /* background-color: grey; */
-            border: 1px grey solid;
-        }
-
-        .header {
+            .wrapper {
+            display: flex;
+            flex-direction: column;
             width: 1440px;
-            height: 65px;
-            background-color: blue;
-            margin: 10px auto;
-        }
+            background-color: red;
+            height: 100%;
+            margin: 0 auto;
+            }
 
-        .mainpage {
+            .container {
+                max-width: 1240px;
+                height: auto;
+                margin: 0 auto;
+                padding: 0 10px;
+            }
+            
+            .header {
+                width: 100%;
+                height: 65px;               
+                border: 1px solid aqua;
+            }
+
+            .header-container {
+                display: flex;
+                align-items: center;
+                max-width: 100%;
+                overflow: hidden;
+            }
+
+            .header-logo {
+                margin: 7px 0px 7px 0px;   
+            }
+
+            .header-menu {
+                margin: 0px 0px 0px 615px;
+                box-sizing: border-box;
+            }
+            
+            .menu-list {
+                display: flex;
+                
+
+            }
+            
+            .menu-item:not(:last-child){
+                margin: 0px 100px 0px 0px;
+                width: 102px;
+            }
+
+            .menu-link {
+                color: #FFFFFF;
+                text-decoration: none;
+                font-size: 16px;
+                line-height: calc(24 / 14 * 100%);
+            }
+
+            .content {
+            flex:  auto;
+            border: 1px solid aqua;
+            /* background-color: #0F2B49; */
+            height: auto;
             position: relative;
-            width: 1440px;
-            height: auto;
-            margin: 0 auto;
-            border: 1px aqua solid;
-        }
+            }
 
-        .mainimage {
-            overflow: hidden;
-        }
+            .mainpage-content {
+                position: absolute;
+                top: 271px;
+                left: 110px;
+            }
 
-        .mainimage img {
-            width: 100%;
-            height: auto;
-        }
 
+            .mainpage-title {
+                color: #193554;
+                font-size: 58px;
+            }
+
+            .mainpage-subtitle {
+                color: #9EABBE;
+                font-size: 30px;
+            }
+
+            .mainpage-descr {
+                color: #193554;
+                font-size: 18px;
+                margin: 20px 0px 0px 0px;
+            }
+
+            .main-interests {
+    position: relative;
+    
+}
+
+.interests-rect {
+    position: absolute;
+    bottom: 116px;
+    left: 100px;
+    width: 1240px;
+    height: 392px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.interests-img {
+    margin-left: 84px;
+    /* margin-bottom: 73px; */
+} 
+
+.interests-descr {
+    margin-top: -50px;
+    margin-left: 106px;
+}
+
+.interests-descr p {
+    color: #0F2B49;
+    font-size: 18px;
+}
+
+.reference-more {
+    display: flex;
+    align-items: center;
+}
+
+.reference-more a {
+    color: #0F66E8;
+    font-size: 18px;
+    text-decoration: none;
+}
+.reference-more img {
+    margin-top: 5px;
+    margin-left: 8px;
+}
+            
+            .footer {
+            flex: auto;
+            height: 67px;
+            border: 1px solid aqua;
+            background-color: #0F2B49;  
+        }
     </style>
 </head>
 <body>
-    <header class="header">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-container">
+                    <div class="header-logo">
+                        <a href="#" class="logo">
+                            <img src="img/Logo.svg" alt="Barens Group">
+                        </a>
+                    </div>
+                    <nav class="header-menu">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a class="menu-link" href="#">Barens Group</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Our Business</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>  
+        </header>
+        <div class="content">
+            <div class="main-image">
+                <img src="img/bg-main.jpg" alt="Home Page">
+            </div>
+            <div class="mainpage-content">
 
-    </header>
+                    <div class="container">
+                        <h1 class="mainpage-title">
+                            Barens Group
+                        </h1>
+                        <p class="mainpage-subtitle">
+                            Finance. Investment. Trading.
+                        </p>
+                        <p class="mainpage-descr">
+                            Private investment and holding group with <br />
+                            operating segments in&nbsp;Commodities, Real Estate <br />
+                             and Venture Capital&nbsp;/ Technology. <br />
+                        </p>
+                    </div>
+            </div>
+            <div class="main-interests">
+                <div class="container">
+                    <div class="interests-rect">
+                        <div class="interests-img">
+                            <img src="img/interests.png" alt="Interests">
+                        </div>
+                        <div class="interests-descr">
+                            <p>Our interests center around sectors fundamental to the society’s sustainable <br /> growth: nourishment, real estate, waste recycling and technology.</p>
+                            <br />
+                            <p>We participate in strategic opportunities that advance everyday life, generate <br /> growth over time and bring scalable, positive impact towards the communities <br />
+                                 and environment.
+                            </p>
+                            <div class="reference-more">
+                                <a href="#">Learn more</a>
+                                <span>
+                                    <a href="">
+                                        <img src="img/arrow-right.png" alt="arrow">
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <div class="mainpage">
-        <div class="mainimage">
-            <img src="img/bg-main.jpg" alt="Home Page">
         </div>
-
+        <footer class="footer">
+        </footer>
     </div>
 </body>
 </html>

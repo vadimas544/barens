@@ -38,10 +38,18 @@ ul {
     /* text-decoration: none; */
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    }
 
 .container {
     /* position: relative; */
     max-width: 1240px;
+    height: auto;
     margin: 0 auto;
     padding: 0 10px;
     /* box-sizing: content-box; */
@@ -85,12 +93,13 @@ ul {
     display: flex;
     min-height: 65px;
     align-items: center;
+    overflow: hidden;
     /* justify-content: space-between; */
 
 }
 
 .header-menu {
-    margin: 0px 0px 0px 641px;
+    margin: 0px 0px 0px 600px;
 }
 
 @media (max-width: 1334px){
@@ -135,9 +144,10 @@ ul {
 /**************MAIN PAGE*********************/
 
 .main-page {
+    flex: auto;
     position: relative;
     width: 1440px;
-    height: auto;
+    height: 1991px;
     margin: 0 auto;
 }
 
@@ -244,8 +254,11 @@ ul {
 }
 
 .top-business {
+    position: relative;
     display: flex;
+    width: 585px;
 }
+
 
 .commod-logo img {
     width: 55px;
@@ -254,6 +267,7 @@ ul {
 }
 
 .top-business h3 {
+
     font-size: 24px;
     line-height: 36px;
     font-weight: 400;
@@ -261,9 +275,15 @@ ul {
     margin-left: 11.5px;
 }
 
+.commod-plus {
+    position: absolute; 
+    right: 0;
+}
+
+
 .commod-plus img {
     /* justify-content: flex-end; */
-    margin-left: 328px; 
+    /* margin-left: 328px;  */
     width: 20px;
     height: 20px;
     color: #0F2B49;
@@ -292,11 +312,38 @@ ul {
 /*---------------------------------FOOTER-------------------------*/
 
 .footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    flex: auto;
+    /* justify-content: flex-start; */
     width: 100%;
     z-index: 50;
-    height: 65px;
+    height: 67px;
     background-color: #0F2B49;
+}
+
+.footer-container {
+    display: flex;
+}
+
+
+.footer-logo {
+    width: 12.37px;
+    height: 18px;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.footer-descr {
+    margin: 25px 0px 0px 10px;
+    font-family: Zurich WGL4 BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
