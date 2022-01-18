@@ -13,3 +13,25 @@ function myFunction() {
       }
     }
   }
+
+  function openbox(){
+    display = getElementById("comod-text").style.display;
+
+    if(display == "none"){
+      getElementById("comod-text").style.display = "block";
+    }else {
+      getElementById("comod-text").style.display = "none";
+    }
+  }
+
+
+  // let coll = document.getElementsByClassName('collapsable');
+
+  // for(let i=0; i < coll.length; i++) {
+  //   coll[i].addEventListener('click', function () {
+  //     alert(Hi);
+  //     let text = this.nextSiblings();
+  //     text.style.display = 'block';
+      
+  //   })
+  // }

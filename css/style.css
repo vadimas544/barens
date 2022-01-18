@@ -317,6 +317,27 @@ ul {
     right: 0;
 }
 
+.minus {
+    display: none;
+}
+
+.collapsable {
+
+}
+
+#comod-text {
+    display: none;
+    width: 585px;
+    /* max-height: 0px; */
+}
+
+.comod-text p {
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+}
 
 .commod-plus img {
     /* justify-content: flex-end; */
