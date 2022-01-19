@@ -14,24 +14,25 @@ function myFunction() {
     }
   }
 
-  function openbox(){
-    display = getElementById("comod-text").style.display;
 
-    if(display == "none"){
-      getElementById("comod-text").style.display = "block";
-    }else {
-      getElementById("comod-text").style.display = "none";
+
+  window.onload= function() {
+    document.getElementById('toggler').onclick = function() {
+      opentext('comod-text', this);
+      return false;
+    };
+  };
+
+  function opentext(id, toggler) {
+    var div = document.getElementById(id);
+
+    
+    if(div.style.display == 'block') {
+      div.style.display = 'none';
+      toggler.innerHTML = 'Открыть';
+    }
+    else {
+      div.style.display = 'block';
+      toggler.innerHTML = 'Закрыть';
     }
   }
-
-
-  // let coll = document.getElementsByClassName('collapsable');
-
-  // for(let i=0; i < coll.length; i++) {
-  //   coll[i].addEventListener('click', function () {
-  //     alert(Hi);
-  //     let text = this.nextSiblings();
-  //     text.style.display = 'block';
-      
-  //   })
-  // }
