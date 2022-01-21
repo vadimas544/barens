@@ -591,6 +591,102 @@ ul {
 
 /* End Policies */
 
+/* Agriculture */
+
+.agriculture-main {
+    width: 100%;
+    height: 2512px;
+    background-color: #E5EEF5;
+}
+
+.agriculture-top {
+    border-radius: 10px;
+    width: 227px;
+    height: 53px;
+    background-color: #fff;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.agricult-ref {
+    text-align: center;
+    margin-top: 14px;
+}  
+
+.agricult-ref a {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #193554;
+}
+
+.agriculture-banner {
+    background: url(../img/agriculture.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    width: 100%;
+    height: 461px;
+    margin-top: 60px;
+    position: relative;
+}
+.agriculture-desc { 
+    position: absolute;
+    top: 266px;
+    left: 104px;
+    width: 1032px;
+    height: 438px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 266px auto;
+}
+
+.agriculture-desc-text {
+    margin-left: 141px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.agriculture-desc-text h3 {
+    font-family: CoreSerifNW01-35Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 58px;
+    color: #0F2B49;
+}
+
+.agriculture-desc-text p {
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #0F2B49;
+}
+
+.agriculture-products {
+    background: url(../img/About\ page\ -\ image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    width: 100%;
+    height: 565px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+/* End agriculture */
+
+
 
 /*---------------------------------FOOTER-------------------------*/
 
