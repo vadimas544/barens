@@ -367,6 +367,96 @@ ul {
 .business {
     margin-bottom: 23px;
 }
+
+/* About */
+
+.about-main {
+    width: 100%;
+    height: 2166px;
+    background-color: #ffffff;
+}
+
+.about-top {
+    display: flex;
+}
+
+.about-top h1 {
+    margin: 120px 131px 0px 64px;
+    font-family: CoreSerifNW01-35Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 150%;
+    color: #0F2B49;
+}
+
+.about-descr {
+    min-width: 804px;
+    height: 280px;
+    margin-top: 135px;
+    font-family: Zurich WGL4 BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #0F2B49;
+}
+
+.about-banner {
+    background: url(../img/About\ page\ -\ image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    width: 100%;
+    height: 565px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -25px;
+
+
+}
+
+.banner-text-block {
+    border-radius: 20px;
+    margin-right: 28px; 
+    width: 354px;
+    height: 308px;
+    background-color: #fff;
+}
+
+.banner-text-block .banner-purpose h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: Core Serif N;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    color: #193554;
+}
+
+.banner-text-block .purpose-descr {
+    text-align: center;
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 150%;
+    color: #1C396E;
+}
+
+
+/* End About */
+
+
+
 /*---------------------------------FOOTER-------------------------*/
 
 .footer {
