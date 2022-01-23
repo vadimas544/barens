@@ -1,20 +1,38 @@
-* {
-    box-sizing: border-box;
-
-}
-
 /*
 Fonts including 
 */
 @font-face {
     font-family: "CoreSerifNW01-35Regular";
         src: url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.eot");
-        src: url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.woff") format("woff"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.svg#CoreSerifNW01-35Regular") format("svg"); }
+        src: url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.woff") format("woff"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/576d017ec258a2d814a0d38cdc1794c6.svg#CoreSerifNW01-35Regular") format("svg");
+     }
+
+@font-face {
+            font-family: 'ZURCH';
+            src: url(./ZURCH.eot);
+            src: url(./ZURCH.eot?#iefix) format('embedded-opentype'),
+                 url(./ZURCH.otf) format('otf'),
+                 url(./ZURCH.svg#ZURCH) format('svg'),
+                 url(./ZURCH.ttf) format('truetype'),
+                 url(./ZURCH.woff) format('woff'),
+                 url(./ZURCH.woff2) format('woff2');
+    }
+                  
 
 
+* {
+    box-sizing: border-box;
+    font-family: 'zurich-regular', sans-serif;
+}
+
+
+
+
+        
 body {
     font-family: 'CoreSerifNW01-35Regular', sans-serif;
     font-weight: 500;
+
 
 }
 
@@ -173,10 +191,14 @@ ul {
 }
 
 .menu-link {
+    font-family: "CoreSerifNW01-35Regular";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 16px;
-    line-height: calc(24 / 14 * 100%);
+    /* line-height: calc(24 / 14 * 100%); */
 }
 
 /**************MAIN PAGE*********************/
@@ -205,18 +227,30 @@ ul {
 }
 
 .mainpage-title {
+    font-family: "Zurch";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 58px;
     color: #193554;
     font-size: 58px;
 }
 
 .mainpage-subtitle {
-    color: #9EABBE;
+    font-family: "Zurch";
+    font-style: normal;
+    font-weight: normal;
     font-size: 30px;
+    line-height: 36px;
+    color: #9EABBE;
 }
 
 .mainpage-descr {
-    color: #193554;
+    font-family: "Zurch";
+    font-weight: 500;
     font-size: 18px;
+    line-height: 150%;
+    color: #193554;
     margin: 20px 0px 0px 0px;
 }
 
@@ -245,6 +279,12 @@ ul {
 .interests-descr {
     margin-top: -50px;
     margin-left: 106px;
+    font-family: "Zurich";
+    font-style: normal;
+    font-weight: ;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0F2B49;
 }
 
 .interests-descr p {
@@ -279,6 +319,9 @@ ul {
 }
 
 .business-title h2 {
+    
+    font-family: "CoreSerifNW01-35Regular";
+    font-style: normal;
     font-weight: normal;
     font-size: 30px;
     line-height: 150%;
@@ -306,9 +349,11 @@ ul {
 
 .top-business h3 {
 
+    font-family: "Zurch";
+    font-style: normal;
+    font-weight: normal;
     font-size: 24px;
-    line-height: 36px;
-    font-weight: 400;
+    line-height: 150%;
     color: #0F2B49;
     margin-left: 11.5px;
 }
@@ -354,7 +399,7 @@ ul {
 }
 
 .bottom-business p {
-    font-family: Zurich;
+    font-family: "Zurch";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -458,10 +503,10 @@ ul {
 .history-title {
     margin-top: 120px;
     text-align: center;
-    font-family: CoreSerifNW01-35Regular;
+    font-family: "CoreSerifNW01-35Regular";
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 150%;
     color: #0F2B49;
 }
@@ -557,6 +602,7 @@ ul {
 /* Policies */
 
 .policies {
+    margin-top: 50px;
     width: 100%;
     height: 413px;
     background-color: #EAEEF5;
@@ -1150,9 +1196,132 @@ ul {
 }
 
 
-
 /* End Technology */
 
+/* Form */
+
+.form-main {
+    width: 100%;
+    height: 911px;
+    background-color: #E5EEF5;
+}
+
+.form-title {
+    
+    margin-top: 100px;
+    font-family: "CoreSerifNW01-35Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #0F2B49;
+}
+
+.form-contacts {
+    display: flex;
+}
+
+.send-form {
+    width: 670px;
+    height: 521px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 45px;
+}
+
+.send-form .form{
+    margin: 61px 0px 12px 67px;
+}
+
+.send-form .form label {
+    font-family: 'zurich-regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.send-form .form span {
+    color: red;
+    margin-left: 2px;
+}
+
+.send-form .form input {
+    width: 535px;
+    height: 50px;
+    border: 1px solid rgba(119, 140, 163, 0.3);
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.send-form .form button {
+    cursor: pointer;
+    margin-top: 36px;
+    margin-bottom: 61px;
+    width: 206px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgba(252, 97, 76, 1);
+    font-family: 'zurich-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    ;
+}
+
+.address {
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+.address .address-block-1 h1 {
+    font-family: CoreSerifNW01-35Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 100%;
+    color: #0F2B49;
+}
+
+.address .address-block-1 p {
+    font-family: 'zurich-regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.address .address-block-2 {
+    margin-top: 70px;
+}
+
+.address .address-block-2 > h1 {
+    font-family: CoreSerifNW01-35Regular !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 100%;
+    color: #0F2B49;
+}
+
+.address .address-block-2 > p {
+    font-family: 'zurich-regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+
+
+
+
+/* End From */
 
 
 /*---------------------------------FOOTER-------------------------*/
@@ -1180,11 +1349,12 @@ ul {
     font-size: 20px;
     line-height: 24px;
     color: #fff;
+    opacity: 0.4;
 }
 
 .footer-descr {
     margin: 25px 0px 0px 10px;
-    font-family: Zurich WGL4 BT;
+    font-family: "Zurich";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
