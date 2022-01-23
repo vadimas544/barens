@@ -802,10 +802,85 @@ ul {
     margin-right: 8px;
 }
 
-
-
 /* End agriculture */
 
+/* Metals */
+
+.metals-main {
+        width: 100%;
+        height: auto;
+        background-color: #E5EEF5;
+}
+
+.metals-banner {
+    background: url(../img/Metals.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    width: 100%;
+    height: 533px;
+    margin-top: 60px;
+    position: relative;
+}
+.metals-desc { 
+    position: absolute;
+    top: 266px;
+    left: 104px;
+    width: 1032px;
+    height: 548px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 266px auto;
+    /* margin-bottom: 100px; */
+}
+
+.metals-desc-text {
+    margin-left: 141px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.metals-desc-text h3 {
+    font-family: CoreSerifNW01-35Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 58px;
+    color: #0F2B49;
+}
+
+.metals-desc-text p {
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #0F2B49;
+}
+
+.metals-geography {
+    position: relative;
+    margin: 400px 0px 120px 0px;
+    width: 100%;
+    height: 711px;
+    background-color: #CFD9EB; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+.metals-map {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 724px;
+    height: 593px;
+    background: url(../img/metals-map.png);
+    z-index: 10;   
+}
+
+/* End Metals */
 
 
 
