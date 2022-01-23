@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 
 /*
@@ -761,6 +762,7 @@ ul {
     background-color: #fff;
     margin: 235px 20px 0px 46px;
     border-radius: 10px; 
+    border: 1px solid rgba(15, 102, 232, 0.5);
 }
 
 .agriculture-map {
@@ -881,6 +883,216 @@ ul {
 }
 
 /* End Metals */
+
+/* Real Estate */
+
+.estate-main {
+    width: 100%;
+    height: auto;
+    background-color: #E5EEF5;
+}
+
+.estate-banner {
+    background: url(../img/image\ real\ estate.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    width: 100%;
+    height: 456px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.estate-desc {
+    position: absolute;
+    top: 269px;
+    left: 104px;
+    width: 1032px;
+    height: 539px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 266px 0px 120px 0px;
+}
+
+.estate-desc-text {
+    margin-left: 141px;
+    margin-top: 60px;
+    margin-bottom: 26px;
+}
+
+.estate-desc-text h3 {
+    font-family: CoreSerifNW01-35Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 58px;
+    color: #0F2B49;
+}
+
+.estate-desc-text p {
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #0F2B49;
+}
+
+.investment {
+    width: 100%;
+    height: 838px;
+    background: rgba(48, 83, 151, 0.72);
+    margin-top: 464px;
+}
+
+.investment-row {
+    display: flex;
+}
+
+.investment-descr {
+    margin-top: 60px;
+}
+
+.investment-title {
+    font-family: CoreSerifNW01-35Regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 90%;
+    color: #FFFFFF;
+}
+
+.investment-subtitle {
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.investment-list ul{
+    padding-inline-start: 0px;
+}
+
+.investment-list ul li {
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+
+.investment-img img {
+    /* background: url(../img/Icon\ Investment.jpg); */
+    margin: 137px 0px 0px 316px;
+    width: 183px;
+    height: 190px;
+    z-index: 9999;
+    /* border: 1px solid black; */
+
+}
+
+.finance-row {
+    display: flex;
+}
+
+.finance-img {
+    margin-top: 197px;
+    margin-left: 50px;
+
+}
+
+.finance-img  img{
+    width: 183px;
+    height: 190px;
+}
+
+.finance-descr {
+    margin-top: 83px;
+    margin-left: 367px;
+}
+
+.finance-title {
+    font-family: CoreSerifNW01-35Regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 90%;
+    color: #FFFFFF;
+}
+
+.finance-subtitle {
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.finance-list ul{
+    padding-inline-start: 0px;
+}
+
+.finance-list ul li {
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.estate-geography {
+    margin: 120px 0px 120px 0px;
+}
+
+.estate-map {
+    width: 100%;
+    height: 711px;
+    background-color: #CFD9EB;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.real-estate-map {
+    position: absolute;
+    bottom: 113px;
+    right: 25px;
+    width: 653px;
+    height: 430px;
+    background: url(../img/estate-map.png);
+    z-index: 10;
+}
+
+.estate-countries {
+    width: 447px;
+    height: 222px;
+    background-color: #fff;
+    margin: 235px 20px 0px 46px;
+    border-radius: 10px;
+    border: 1px solid rgba(15, 102, 232, 0.5);
+}
+
+.estate-countries-list {
+    display: flex;
+    margin-left: 35px;
+    margin-top: -20px;
+    font-family: Zurich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0F2B49;
+}
+/* End Real Estate */
+
+
 
 
 
